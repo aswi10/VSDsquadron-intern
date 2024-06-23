@@ -18,7 +18,7 @@ Launch your risc64 compiler
 ![RISCV64 complier](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/ee9b6d28-3f11-47f5-97e0-8ee29f170394)
 
 Step 5:
-Get the assembly code and calculate the data of the instruction set
+Get the assembly code and calculate the data of the instruction set,Calculate using your calculator in programmer mode
 
 ![Calculation](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/283632ec-cca9-4bbf-bf69-491e494cce96)
 
