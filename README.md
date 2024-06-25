@@ -53,6 +53,7 @@ Get the assembly code for the C code of clock cycle divider and do the calculati
 ![Screenshot (138)](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/9000c479-6a36-45ca-a46e-9b56e6fc60ad)
 
 TASK-3👩‍💻
+
 Step 1:
 Open the terminal and launch the task 1 file
 (i.e)sum1ton.c
@@ -62,7 +63,10 @@ In the riscv64 complilation open the spike using
 ![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/7ecb1618-f21b-49ab-aa71-4552e292e867)
 
 Spike is a functional RISC-V ISA (Instruction Set Architecture) simulator. It is used for running and testing RISC-V programs without needing physical hardware. It can be employed for debugging, testing, and validating software for RISC-V based systems.
-The Spike RISC-V ISA simulator is often used by developers to run and test their RISC-V programs in a simulated environment before deploying them to actual hardware. This allows for catching errors and verifying functionality early in the development process.
+
+The Spike RISC-V ISA simulator is often used by developers to run and test their RISC-V programs in a simulated environment before deploying them to actual hardware. 
+
+This allows for catching errors and verifying functionality early in the development process.
 
 ![spike](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/ee71ee17-4f29-438c-b764-aca696fd8848)
 
