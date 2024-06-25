@@ -50,6 +50,10 @@ Get the assembly code for the C code of clock cycle divider and do the calculati
 
 ![Assembly code-clock divider](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/fa256962-c995-4177-bbe4-043a21dfa4fe)
 
+![Screenshot (138)](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/9000c479-6a36-45ca-a46e-9b56e6fc60ad)
+
+
+
 
 
 
