@@ -27,6 +27,10 @@ TASK-2👩‍💻
 Step 1:
 Open the terminal and launch the leafpad
 
+![C code for clock divider](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/c5d25bc2-f0e6-4669-a9e2-c97e737cac6d)
+
+
+
 Step 2:
 Write the C program for the Clock cycle divider
 
