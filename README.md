@@ -34,12 +34,13 @@ Write the C program for clock cycle divider
 
 ![C code for clock divider](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/c5d25bc2-f0e6-4669-a9e2-c97e737cac6d)
 
+Step 3:
+We will get the output of for the given c code
 
 
+Step 4:
+Compile the code in the riscv64
 
-
-Step 2:
-Write the C program for the Clock cycle divider
 
 
 
