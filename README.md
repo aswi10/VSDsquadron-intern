@@ -1,4 +1,5 @@
 # VSDsquadron-intern
+TASK-1👩‍💻
 Step 1:
 Install and launch the leafpad and write your C code
 
@@ -21,5 +22,13 @@ Step 5:
 Get the assembly code and calculate the data of the instruction set,Calculate using your calculator in programmer mode
 
 ![Calculation](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/283632ec-cca9-4bbf-bf69-491e494cce96)
+
+TASK-2👩‍💻
+Step 1:
+Open the terminal and launch the leafpad
+
+Step 2:
+Write the C program for the Clock cycle divider
+
 
 
