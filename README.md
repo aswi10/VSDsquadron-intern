@@ -61,10 +61,15 @@ Step 2:
 In the riscv64 complilation open the spike using
 ![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/7ecb1618-f21b-49ab-aa71-4552e292e867)
 
+![spike](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/ee71ee17-4f29-438c-b764-aca696fd8848)
 
-
-Step:Using the assembly code 
+Step 3:Using the assembly code 
 ![assembly code -spike](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/cd01de8c-25dc-4cbc-a77f-63eec2fa9b99)
+
+Step 4:
+Do the calculations of the assembly code and verify the difference using calculator
+
+
 
 
 
