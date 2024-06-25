@@ -43,6 +43,13 @@ We will get the output of for the given c code
 Step 4:
 Compile the code in the riscv64
 
+![riscv64](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/2ddad0fb-4075-495e-ab94-8124e390a545)
+
+Step 5:
+Get the assembly code for the C code of clock cycle divider and do the calculations
+
+
+
 
 
 
