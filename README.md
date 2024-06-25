@@ -52,6 +52,18 @@ Get the assembly code for the C code of clock cycle divider and do the calculati
 
 ![Screenshot (138)](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/9000c479-6a36-45ca-a46e-9b56e6fc60ad)
 
+TASK-3👩‍💻
+Step 1:
+Open the terminal and launch the task 1 file
+(i.e)sum1ton.c
+
+Step 2:
+In the riscv64 complilation open the spike using
+![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/7ecb1618-f21b-49ab-aa71-4552e292e867)
+
+Step:Using the assembly code 
+
+
 
 
 
