@@ -61,8 +61,10 @@ Step 2:
 In the riscv64 complilation open the spike using
 ![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/7ecb1618-f21b-49ab-aa71-4552e292e867)
 
-Step:Using the assembly code 
 
+
+Step:Using the assembly code 
+![assembly code -spike](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/cd01de8c-25dc-4cbc-a77f-63eec2fa9b99)
 
 
 
