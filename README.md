@@ -48,6 +48,10 @@ Compile the code in the riscv64
 Step 5:
 Get the assembly code for the C code of clock cycle divider and do the calculations
 
+![Assembly code-clock divider](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/fa256962-c995-4177-bbe4-043a21dfa4fe)
+
+
+
 
 
 
