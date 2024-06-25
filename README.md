@@ -37,9 +37,13 @@ Write the C program for clock cycle divider
 Step 3:
 We will get the output of for the given c code
 
+![Output of clock divider](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/dc7c0818-82da-442f-a360-99704d2e0032)
+
 
 Step 4:
 Compile the code in the riscv64
+
+
 
 
 
