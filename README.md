@@ -60,7 +60,7 @@ Open the terminal and launch the task 1 file
 
 Step 2:
 In the riscv64 complilation open the spike using
-![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/7ecb1618-f21b-49ab-aa71-4552e292e867)
+
 
 Spike is a functional RISC-V ISA (Instruction Set Architecture) simulator. It is used for running and testing RISC-V programs without needing physical hardware. It can be employed for debugging, testing, and validating software for RISC-V based systems.
 
