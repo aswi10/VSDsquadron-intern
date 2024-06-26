@@ -101,6 +101,8 @@ Get the assembly code for the C code of clock cycle divider and do the calculati
 
 TASK-3👩‍💻
 
+Key Features of Spike🪄:
+
 🔖Spike is a functional RISC-V ISA (Instruction Set Architecture) simulator. It is used for running and testing RISC-V programs without needing physical hardware. It can be employed for debugging, testing, and validating software for RISC-V based systems.
 
 🔖The Spike RISC-V ISA simulator is often used by developers to run and test their RISC-V programs in a simulated environment before deploying them to actual hardware. 
