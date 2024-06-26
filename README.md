@@ -17,6 +17,20 @@ The term riscv64 refers to the 64-bit implementation of the RISC-V architecture.
 
 TASK-1👩‍💻
 
+Before the task let's know about what is leafpad🤔
+
+Use Cases🪄:
+
+1.Basic Text Editing: Ideal for users who need a simple editor for writing plain text, notes, or quick edits.
+
+2.Configuration Files: Useful for editing configuration files on Unix-like systems, where a lightweight editor is preferable.
+
+3.Scripting: Suitable for simple scripting tasks where advanced features are not necessary.
+
+ you can install Leafpad using the following command:
+
+ 
+
 Step 1:
 Install and launch the leafpad and write your C code
 
