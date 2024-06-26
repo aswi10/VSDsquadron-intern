@@ -1,4 +1,11 @@
 # VSDsquadron-intern
+
+VSDsquadron mini🪄:
+
+VSDSquadron, a cutting-edge development board based on the RISC-V architecture that is fully open-source.
+
+This board presents an exceptional opportunity for individuals to learn about RISC-V and VLSI chip design utilizing only open-source tools, starting from the RTL and extending all the way to the GDSII.
+
 Key Features of RISC-V🪄:
 
 1.Open Source: The RISC-V ISA is open and free to use, allowing anyone to design, manufacture, and sell RISC-V-based chips and software without paying licensing fees.
@@ -7,7 +14,7 @@ Key Features of RISC-V🪄:
 
 3.Extensibility: RISC-V supports custom extensions, enabling developers to add specialized instructions for their specific needs without conflicting with the base ISA.
 
-RISC-V 64🪄
+RISC-V 64🪄:
 
 The term riscv64 refers to the 64-bit implementation of the RISC-V architecture. This includes:
 
