@@ -73,6 +73,8 @@ TASK-2👩‍💻
 
 🔖Clock divider devices, when used in divide-by-1 mode, can also function as a fanout buffer.
 
+![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/fa0c3039-2e8e-4a5f-9340-88e011312701)
+
 Step 1:
 Open the terminal and launch the leafpad
 
