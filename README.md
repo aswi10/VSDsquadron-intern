@@ -4,6 +4,9 @@ VSDsquadron mini🪄:
 
 VSDSquadron, a cutting-edge development board based on the RISC-V architecture that is fully open-source.
 
+![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/051a3e2f-9448-48ad-b44f-ca39fcd5ddd5)
+
+
 This board presents an exceptional opportunity for individuals to learn about RISC-V and VLSI chip design utilizing only open-source tools, starting from the RTL and extending all the way to the GDSII.
 
 Key Features of RISC-V🪄:
