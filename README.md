@@ -1,4 +1,17 @@
 # VSDsquadron-intern
+Key Features of RISC-V🪄:
+1.Open Source: The RISC-V ISA is open and free to use, allowing anyone to design, manufacture, and sell RISC-V-based chips and software without paying licensing fees.
+
+2.Modular Design: RISC-V's modular approach allows designers to implement only the parts of the ISA they need, making it highly adaptable to various applications.
+
+3.Extensibility: RISC-V supports custom extensions, enabling developers to add specialized instructions for their specific needs without conflicting with the base ISA.
+riscv64🪄
+The term riscv64 refers to the 64-bit implementation of the RISC-V architecture. This includes:
+
+64-bit Registers: The riscv64 architecture uses 64-bit wide general-purpose registers, allowing it to handle larger data sizes and address spaces compared to its 32-bit counterpart (riscv32).
+
+64-bit Addressing: With 64-bit addressing, riscv64 can address a much larger memory space, which is crucial for applications requiring large amounts of memory.
+
 TASK-1👩‍💻
 
 Step 1:
@@ -59,8 +72,9 @@ Open the terminal and launch the task 1 file
 (i.e)sum1ton.c
 
 Step 2:
-In the riscv64 complilation open the spike using
+In the riscv64 complilation open the spike
 
+![spike 2](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/39456c72-0dea-40ca-b4b8-e23ba691d3b9)
 
 Spike is a functional RISC-V ISA (Instruction Set Architecture) simulator. It is used for running and testing RISC-V programs without needing physical hardware. It can be employed for debugging, testing, and validating software for RISC-V based systems.
 
