@@ -29,9 +29,9 @@ Use Cases🪄:
 
  you can install Leafpad using the following command:
 
- 
+![leafpad](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/8fc03762-c540-447a-b70f-c60a2894229b)
 
-Step 1:
+ Step 1:
 Install and launch the leafpad and write your C code
 
 ![VirtualBox_vsdworkshop_23_06_2024_16_55_01 code](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/e15b4bd0-3576-4808-ae7a-8c1ab36b5bd5)
