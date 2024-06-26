@@ -11,19 +11,19 @@ This board presents an exceptional opportunity for individuals to learn about RI
 
 Key Features of RISC-V🪄:
 
-1.Open Source: The RISC-V ISA is open and free to use, allowing anyone to design, manufacture, and sell RISC-V-based chips and software without paying licensing fees.
+🔖Open Source: The RISC-V ISA is open and free to use, allowing anyone to design, manufacture, and sell RISC-V-based chips and software without paying licensing fees.
 
-2.Modular Design: RISC-V's modular approach allows designers to implement only the parts of the ISA they need, making it highly adaptable to various applications.
+🔖Modular Design: RISC-V's modular approach allows designers to implement only the parts of the ISA they need, making it highly adaptable to various applications.
 
-3.Extensibility: RISC-V supports custom extensions, enabling developers to add specialized instructions for their specific needs without conflicting with the base ISA.
+🔖Extensibility: RISC-V supports custom extensions, enabling developers to add specialized instructions for their specific needs without conflicting with the base ISA.
 
 RISC-V 64🪄:
 
 The term riscv64 refers to the 64-bit implementation of the RISC-V architecture. This includes:
 
-1.64-bit Registers: The riscv64 architecture uses 64-bit wide general-purpose registers, allowing it to handle larger data sizes and address spaces compared to its 32-bit counterpart (riscv32).
+🔖64-bit Registers: The riscv64 architecture uses 64-bit wide general-purpose registers, allowing it to handle larger data sizes and address spaces compared to its 32-bit counterpart (riscv32).
 
-2.64-bit Addressing: With 64-bit addressing, riscv64 can address a much larger memory space, which is crucial for applications requiring large amounts of memory.
+🔖64-bit Addressing: With 64-bit addressing, riscv64 can address a much larger memory space, which is crucial for applications requiring large amounts of memory.
 
 TASK-1👩‍💻
 
@@ -31,11 +31,11 @@ Before the task let's know about what is leafpad🤔
 
 Use Cases🪄:
 
-1.Basic Text Editing: Ideal for users who need a simple editor for writing plain text, notes, or quick edits.
+🔖Basic Text Editing: Ideal for users who need a simple editor for writing plain text, notes, or quick edits.
 
-2.Configuration Files: Useful for editing configuration files on Unix-like systems, where a lightweight editor is preferable.
+🔖Configuration Files: Useful for editing configuration files on Unix-like systems, where a lightweight editor is preferable.
 
-3.Scripting: Suitable for simple scripting tasks where advanced features are not necessary.
+🔖Scripting: Suitable for simple scripting tasks where advanced features are not necessary.
 
  you can install Leafpad using the following command:
 
@@ -67,6 +67,12 @@ Get the assembly code and calculate the data of the instruction set,Calculate us
 
 TASK-2👩‍💻
 
+🔖clock dividers provide an output clock signal that is a divided frequency of the input.
+
+🔖They can also be used as clock buffers and make multiple copies of the output frequency.
+
+🔖Clock divider devices, when used in divide-by-1 mode, can also function as a fanout buffer.
+
 Step 1:
 Open the terminal and launch the leafpad
 
@@ -95,11 +101,11 @@ Get the assembly code for the C code of clock cycle divider and do the calculati
 
 TASK-3👩‍💻
 
-Spike is a functional RISC-V ISA (Instruction Set Architecture) simulator. It is used for running and testing RISC-V programs without needing physical hardware. It can be employed for debugging, testing, and validating software for RISC-V based systems.
+🔖Spike is a functional RISC-V ISA (Instruction Set Architecture) simulator. It is used for running and testing RISC-V programs without needing physical hardware. It can be employed for debugging, testing, and validating software for RISC-V based systems.
 
-The Spike RISC-V ISA simulator is often used by developers to run and test their RISC-V programs in a simulated environment before deploying them to actual hardware. 
+🔖The Spike RISC-V ISA simulator is often used by developers to run and test their RISC-V programs in a simulated environment before deploying them to actual hardware. 
 
-This allows for catching errors and verifying functionality early in the development process.
+🔖This allows for catching errors and verifying functionality early in the development process.
 
 Step 1:
 Open the terminal and launch the task 1 file
