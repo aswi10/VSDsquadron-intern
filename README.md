@@ -107,7 +107,7 @@ TASK-3👩‍💻
 
 🔖This allows for catching errors and verifying functionality early in the development process.
 
-Using the spike we can verify the risc-v
+Using the spike library we can verify the risc-v
 
 ![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/abf8a4c5-6782-4214-b522-1ca48e4a4f9c)
 
