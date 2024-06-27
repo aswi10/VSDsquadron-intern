@@ -75,6 +75,8 @@ TASK-2👩‍💻
 
 ![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/fa0c3039-2e8e-4a5f-9340-88e011312701)
 
+The C code can be taken using any AI tool
+
 Step 1:
 Open the terminal and launch the leafpad
 
