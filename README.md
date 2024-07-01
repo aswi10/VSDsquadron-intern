@@ -1,6 +1,6 @@
 # VSDsquadron-intern
 
-VSDsquadron mini🪄:
+**VSDsquadron mini🪄:**
 
 VSDSquadron, a cutting-edge development board based on the RISC-V architecture that is fully open-source.
 
@@ -9,7 +9,7 @@ VSDSquadron, a cutting-edge development board based on the RISC-V architecture t
 
 This board presents an exceptional opportunity for individuals to learn about RISC-V and VLSI chip design utilizing only open-source tools, starting from the RTL and extending all the way to the GDSII.
 
-Key Features of RISC-V🪄:
+**Key Features of RISC-V🪄:**
 
 🔖Open Source: The RISC-V ISA is open and free to use, allowing anyone to design, manufacture, and sell RISC-V-based chips and software without paying licensing fees.
 
@@ -17,7 +17,7 @@ Key Features of RISC-V🪄:
 
 🔖Extensibility: RISC-V supports custom extensions, enabling developers to add specialized instructions for their specific needs without conflicting with the base ISA.
 
-RISC-V 64🪄:
+**RISC-V 64🪄:**
 
 The term riscv64 refers to the 64-bit implementation of the RISC-V architecture. This includes:
 
@@ -25,7 +25,7 @@ The term riscv64 refers to the 64-bit implementation of the RISC-V architecture.
 
 🔖64-bit Addressing: With 64-bit addressing, riscv64 can address a much larger memory space, which is crucial for applications requiring large amounts of memory.
 
-TASK-1👩‍💻
+**TASK-1👩‍💻**
 
 Before the task let's know about what is leafpad🤔
 
@@ -42,7 +42,7 @@ Use Cases🪄:
 ![leafpad](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/28d3c359-4e7d-409d-9905-aedd09ac3f75)
 
 
- Step 1:
+Step 1:
 Install and launch the leafpad and write your C code
 
 ![VirtualBox_vsdworkshop_23_06_2024_16_55_01 code](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/e15b4bd0-3576-4808-ae7a-8c1ab36b5bd5)
@@ -65,7 +65,7 @@ Get the assembly code and calculate the data of the instruction set,Calculate us
 
 ![Calculation](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/283632ec-cca9-4bbf-bf69-491e494cce96)
 
-TASK-2👩‍💻
+**TASK-2👩‍💻**
 
 🔖clock dividers provide an output clock signal that is a divided frequency of the input.
 
@@ -103,9 +103,9 @@ Get the assembly code for the C code of clock cycle divider and do the calculati
 
 ![Screenshot (138)](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/9000c479-6a36-45ca-a46e-9b56e6fc60ad)
 
-TASK-3👩‍💻
+**TASK-3👩‍💻**
 
-Key Features of Spike🪄:
+**Key Features of Spike🪄:**
 
 🔖Spike is a functional RISC-V ISA (Instruction Set Architecture) simulator. It is used for running and testing RISC-V programs without needing physical hardware. It can be employed for debugging, testing, and validating software for RISC-V based systems.
 
@@ -136,7 +136,7 @@ Do the calculations of the assembly code and verify the difference using calcula
 
 ![Screenshot (139)](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/64837b09-f4b8-4c2a-8072-9a2332244c19)
 
-Task-4👩‍💻
+**Task-4👩‍💻**
 
 "Identify various RISC-V instruction type (R, I, S, B, U, J) and exact 32-bit instruction code in the instruction type format for below RISC-V instructions
 
@@ -168,7 +168,7 @@ SLL r15, r11, r2
 
 Upload the 32-bit pattern on Github"
 
-1.R-Type instruction: R-type (Register-type) instruction. R-type instructions are used for arithmetic and logical operations that require all operands to be located in registers.
+**1.R-Type instruction:** R-type (Register-type) instruction. R-type instructions are used for arithmetic and logical operations that require all operands to be located in registers.
 
 The general format of an R-type instruction is:
 
@@ -192,13 +192,13 @@ Example: MIPS assembly instruction for addition
 
 add $t1, $t2, $t3
 
-2.I-Type instruction: I-type (Immediate-type) instruction. I-type instructions are used for operations that involve an immediate value (a constant), memory access operations, and branch instructions.
+**2.I-Type instruction:** I-type (Immediate-type) instruction. I-type instructions are used for operations that involve an immediate value (a constant), memory access operations, and branch instructions.
 
 The general format of an I-type instruction is:
 
 opcode rs rt immediate
 
-📍Fields:
+**📍Fields:**
 
 opcode: Operation code (specifies the operation to be performed).
 
@@ -212,13 +212,13 @@ Example: MIPS assembly instruction for adding an immediate value
 
 addi $t1, $t2, 10
 
-3.S-Type instruction: S-type (Store-type) instruction. These instructions are used for storing data from a register into memory. 
+**3.S-Type instruction:** S-type (Store-type) instruction. These instructions are used for storing data from a register into memory. 
 
 The general format of an S-type instruction in RISC-V is:
 
 opcode rs2 rs1 imm
 
-📍Fields:
+**📍Fields:**
 
 opcode: Operation code (specifies the operation to be performed, such as 'sw' for store word).
 
@@ -232,13 +232,13 @@ Example: RISC-V assembly instruction for storing a word
 
 sw x2, 12(x1)
 
-4.B-Type instruction: B-type (Branch-type) instruction. These instructions control the flow of execution by conditionally branching to another part of the program based on the comparison of register values.
+**4.B-Type instruction:** B-type (Branch-type) instruction. These instructions control the flow of execution by conditionally branching to another part of the program based on the comparison of register values.
 
 The general format of a B-type instruction in RISC-V is:
 
 opcode rs1 rs2 imm
 
-📍Fields:
+**📍Fields:**
 
 opcode: Operation code (specifies the branch operation).
 
@@ -252,13 +252,13 @@ Example: RISC-V assembly instruction for a branch if equal:
 
 beq x1, x2, label
 
-5.U-Type instruction: U-type (Upper Immediate-type) instruction. These instructions involve large immediate values, often used for addressing or for creating large constants. The U-type format is used for instructions that load a 20-bit immediate value into a register.
+**5.U-Type instruction:** U-type (Upper Immediate-type) instruction. These instructions involve large immediate values, often used for addressing or for creating large constants. The U-type format is used for instructions that load a 20-bit immediate value into a register.
 
 The general format of a U-type instruction in RISC-V is:
 
 opcode rd imm
 
-📍Fields:
+**📍Fields:**
 
 opcode: Operation code (specifies the operation to be performed).
 
@@ -274,13 +274,13 @@ The LUI instruction loads a 20-bit immediate value into the upper 20 bits of the
 
 lui x1, 0x12345
 
-6.J-Type instruction: J-type (Jump-type) instruction. These instructions are designed for jump operations, where the program counter (PC) is set to a new address, allowing for function calls and unconditional jumps.
+**6.J-Type instruction:** J-type (Jump-type) instruction. These instructions are designed for jump operations, where the program counter (PC) is set to a new address, allowing for function calls and unconditional jumps.
 
 The general format of a J-type instruction in RISC-V is:
 
 opcode rd imm
 
-📍Fields:
+**📍Fields:**
 
 opcode: Operation code (specifies the operation to be performed).
 
