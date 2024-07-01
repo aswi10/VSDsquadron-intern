@@ -103,7 +103,7 @@ Get the assembly code for the C code of clock cycle divider and do the calculati
 
 ![Screenshot (138)](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/9000c479-6a36-45ca-a46e-9b56e6fc60ad)
 
-###  **TASK-3👩‍💻**
+#### **TASK-3👩‍💻**
 
 **Key Features of Spike🪄:**
 
@@ -136,7 +136,7 @@ Do the calculations of the assembly code and verify the difference using calcula
 
 ![Screenshot (139)](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/64837b09-f4b8-4c2a-8072-9a2332244c19)
 
-####   **Task-4👩‍💻**
+###### **Task-4👩‍💻**
 
 "Identify various RISC-V instruction type (R, I, S, B, U, J) and exact 32-bit instruction code in the instruction type format for below RISC-V instructions
 
