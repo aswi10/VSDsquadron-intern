@@ -174,7 +174,7 @@ The general format of an R-type instruction is:
 
 opcode rs rt rd shamt funct
 
-📍Fields:
+**📍Fields:**
 
 opcode: Operation code (always 000000 for R-type instructions in MIPS).
 
