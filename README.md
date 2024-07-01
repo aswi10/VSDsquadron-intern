@@ -177,10 +177,15 @@ opcode rs rt rd shamt funct
 📍Fields:
 
 opcode: Operation code (always 000000 for R-type instructions in MIPS).
+
 rs: Source register (the first operand).
+
 rt: Source register (the second operand).
+
 rd: Destination register (where the result is stored).
+
 shamt: Shift amount (used for shift operations, otherwise 0).
+
 funct: Function code (specifies the exact operation to be performed).
 
 Example: MIPS assembly instruction for addition
@@ -196,8 +201,11 @@ opcode rs rt immediate
 📍Fields:
 
 opcode: Operation code (specifies the operation to be performed).
+
 rs: Source register (one operand).
+
 rt: Target register (where the result is stored, or another operand).
+
 immediate: Immediate value (a constant value or address offset).
 
 Example: MIPS assembly instruction for adding an immediate value
@@ -213,8 +221,11 @@ opcode rs2 rs1 imm
 📍Fields:
 
 opcode: Operation code (specifies the operation to be performed, such as 'sw' for store word).
+
 rs2: Source register 2 (contains the data to be stored).
+
 rs1: Source register 1 (base register for calculating the memory address).
+
 imm: Immediate value (offset used in address calculation, split into two parts in the instruction encoding).
 
 Example: RISC-V assembly instruction for storing a word
@@ -230,8 +241,11 @@ opcode rs1 rs2 imm
 📍Fields:
 
 opcode: Operation code (specifies the branch operation).
+
 rs1: Source register 1 (one of the registers to be compared).
+
 rs2: Source register 2 (the other register to be compared).
+
 imm: Immediate value (branch offset, split into several parts in the instruction encoding).
 
 Example: RISC-V assembly instruction for a branch if equal:
@@ -247,7 +261,9 @@ opcode rd imm
 📍Fields:
 
 opcode: Operation code (specifies the operation to be performed).
+
 rd: Destination register (where the result is stored).
+
 imm: Immediate value (a 20-bit immediate value).
 
 Example: Common U-type instructions in RISC-V are LUI (Load Upper Immediate) and AUIPC (Add Upper Immediate to PC).
@@ -267,7 +283,9 @@ opcode rd imm
 📍Fields:
 
 opcode: Operation code (specifies the operation to be performed).
+
 rd: Destination register (where the return address is stored, if applicable).
+
 imm: Immediate value (a 20-bit signed offset for the jump target address).
 
 Example: Common J-type instructions in RISC-V are JAL (Jump and Link) and JALR (Jump and Link Register).
