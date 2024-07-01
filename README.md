@@ -65,7 +65,7 @@ Get the assembly code and calculate the data of the instruction set,Calculate us
 
 ![Calculation](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/283632ec-cca9-4bbf-bf69-491e494cce96)
 
-## **TASK-2👩‍💻**
+# **TASK-2👩‍💻**
 
 🔖clock dividers provide an output clock signal that is a divided frequency of the input.
 
@@ -136,7 +136,7 @@ Do the calculations of the assembly code and verify the difference using calcula
 
 ![Screenshot (139)](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/64837b09-f4b8-4c2a-8072-9a2332244c19)
 
-## **Task-4👩‍💻**
+# **Task-4👩‍💻**
 
 "Identify various RISC-V instruction type (R, I, S, B, U, J) and exact 32-bit instruction code in the instruction type format for below RISC-V instructions
 
