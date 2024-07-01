@@ -296,6 +296,220 @@ The JAL instruction jumps to the address specified by the immediate value and sa
 
 jal x1, 0x12345
 
+**RISC-V INSTRUCTION TYPE AND 32-BIT:**
+
+* **ADD r1, r2, r3:**
+  
+opcode: 000000
+
+rs: 00010
+
+rt: 00011
+
+rd: 00001
+
+shamt: 00000
+
+funct: 100000
+
+Binary number:00000000010000110000100000100000 
+
+32 bit pattern:0x00430820 in hexadecimal.
+
+* **SUB r3, r1, r2:**
+
+opcode: 000000
+
+rs: 00001
+
+rt: 00010
+
+rd: 00011
+
+shamt: 00000
+
+funct: 100010
+
+Binary number:00000000001000100001100000100010 
+
+32 bit pattern:0x00221822
+
+* **AND r2, r1, r3:**
+
+opcode: 000000
+
+rs: 00001
+
+rt: 00011
+
+rd: 00010
+
+shamt: 00000
+
+funct: 100100
+
+Binary number:00000000001000110001000000100100 
+
+32 bit number:0x00430824
+
+* **OR r8, r2, r5:**
+
+opcode: 000000
+
+rs: 00010
+
+rt: 00101
+
+rd: 01000
+
+shamt: 00000
+
+funct: 100101
+
+Binary number:00000000010010100101000000100101 
+
+32 bit number:0x0128425
+
+* **XOR r8, r1, r4:**
+
+opcode: 000000
+
+rs: 00001
+
+rt: 00100
+
+rd: 01000
+
+shamt: 00000
+
+funct: 100110
+
+Binary number:0000000000100100010000000100110 
+
+32 bit pattern:0x00420826
+
+* **SLT r10, r2, r4:**
+
+opcode: 000000
+
+rs: 00010
+
+rt: 00100
+
+rd: 01010
+
+shamt: 00000
+
+funct: 101010
+
+Binary number:00000000010010010100000000101010 
+
+32 bit pattern:0x0124282A
+
+* **ADDI r12, r3, 5:**
+
+opcode for ADDI: 001000
+
+rs: 00011
+
+rt: 01100
+
+immediate: 0000000000000101   
+
+Binary number:00100000011011000000000000000101 
+
+32 bit pattern:0x206C0005
+
+* **SW r3, r1, 4:**
+
+opcode for SW: 101011
+
+base: 00001 
+
+rt: 00011 
+
+offset: 0000000000000100
+
+Binary number:10101100001000110000000000000100 
+
+32 bit pattern:0xAC630004
+
+* **SRL r16, r11, r2:**
+
+rs: r11 -> 01011 
+
+rt: r2 -> 00010 
+
+rd: r16 -> 10000 
+
+Binary number:000000 01011 00010 10000 00011 000010
+
+32 bit pattern:0x00B02803
+
+* **BNE r0, r1, 20:**
+
+opcode: 000101
+
+rs: 00000
+
+rt: 00001
+
+immediate: 0000000000010100
+
+Binary number:000101 00000 00001 0000000000010100
+
+32 bit pattern:0x14010014
+
+* **BEQ r0, r0, 15:**
+
+opcode for BEQ: 000100 
+
+rs: r0 -> 00000
+
+rt: r0 -> 00000
+
+immediate: 15 (decimal) -> 0000000000001111
+
+Binary number:000100 00000 00000 0000000000001111
+
+32 bit pattern:0x1000000F
+
+* **LW r13, r11, 2:**
+
+opcode for LW: 100011
+
+rs: r11 -> 01011
+
+rt: r13 -> 01101
+
+immediate: 2 (decimal) -> 0000000000000010
+
+Binary number:100011 01011 01101 0000000000000010
+
+32 bit pattern:0x8B6A0002
+
+* **SLL r15, r11, r2:**
+
+opcode: 000000
+
+rs: r11 -> 01011 
+
+rt: r15 -> 01111 
+
+rd: 00000 
+
+shamt: Value in r2, interpreted as a 5-bit binary representation
+
+Binary number:000000 01011 00000 01111 00011 000000
+
+32 bit pattern:0x00B0001C
+
+
+
+
+
+
+
 
 
 
