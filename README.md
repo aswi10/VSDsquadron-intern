@@ -77,26 +77,26 @@ Get the assembly code and calculate the data of the instruction set,Calculate us
 
 The C code can be taken using any AI tool
 
-Step 1:
+* Step 1:
 Open the terminal and launch the leafpad
 
-Step 2:
+* Step 2:
 Write the C program for clock cycle divider
 
 ![C code for clock divider](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/c5d25bc2-f0e6-4669-a9e2-c97e737cac6d)
 
-Step 3:
+* Step 3:
 We will get the output of for the given c code
 
 ![Output of clock divider](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/dc7c0818-82da-442f-a360-99704d2e0032)
 
 
-Step 4:
+* Step 4:
 Compile the code in the riscv64
 
 ![riscv64](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/2ddad0fb-4075-495e-ab94-8124e390a545)
 
-Step 5:
+* Step 5:
 Get the assembly code for the C code of clock cycle divider and do the calculations
 
 ![Assembly code-clock divider](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/fa256962-c995-4177-bbe4-043a21dfa4fe)
@@ -115,23 +115,23 @@ Get the assembly code for the C code of clock cycle divider and do the calculati
 
 Using the spike library we can verify the risc-v
 
-Step 1:
+* Step 1:
 Open the terminal and launch the task 1 file
 (i.e)sum1ton.c
 
-Step 2:
+* Step 2:
 In the riscv64 complilation open the spike
 
 ![spike 2](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/39456c72-0dea-40ca-b4b8-e23ba691d3b9)
 
 ![spike](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/ee71ee17-4f29-438c-b764-aca696fd8848)
 
-Step 3:
+* Step 3:
 Using the assembly code we can test for risc-v system
 
 ![assembly code -spike](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/cd01de8c-25dc-4cbc-a77f-63eec2fa9b99)
 
-Step 4:
+* Step 4:
 Do the calculations of the assembly code and verify the difference using calculator
 
 ![Screenshot (139)](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/64837b09-f4b8-4c2a-8072-9a2332244c19)
@@ -176,17 +176,17 @@ opcode rs rt rd shamt funct
 
 **📍Fields:**
 
-opcode: Operation code (always 000000 for R-type instructions in MIPS).
+* opcode: Operation code (always 000000 for R-type instructions in MIPS).
 
-rs: Source register (the first operand).
+* rs: Source register (the first operand).
 
-rt: Source register (the second operand).
+* rt: Source register (the second operand).
 
-rd: Destination register (where the result is stored).
+* rd: Destination register (where the result is stored).
 
-shamt: Shift amount (used for shift operations, otherwise 0).
+* shamt: Shift amount (used for shift operations, otherwise 0).
 
-funct: Function code (specifies the exact operation to be performed).
+* funct: Function code (specifies the exact operation to be performed).
 
 Example: MIPS assembly instruction for addition
 
@@ -200,11 +200,11 @@ opcode rs rt immediate
 
 **📍Fields:**
 
-opcode: Operation code (specifies the operation to be performed).
+* opcode: Operation code (specifies the operation to be performed).
 
-rs: Source register (one operand).
+* rs: Source register (one operand).
 
-rt: Target register (where the result is stored, or another operand).
+* rt: Target register (where the result is stored, or another operand).
 
 immediate: Immediate value (a constant value or address offset).
 
@@ -220,13 +220,13 @@ opcode rs2 rs1 imm
 
 **📍Fields:**
 
-opcode: Operation code (specifies the operation to be performed, such as 'sw' for store word).
+* opcode: Operation code (specifies the operation to be performed, such as 'sw' for store word).
 
-rs2: Source register 2 (contains the data to be stored).
+* rs2: Source register 2 (contains the data to be stored).
 
-rs1: Source register 1 (base register for calculating the memory address).
+* rs1: Source register 1 (base register for calculating the memory address).
 
-imm: Immediate value (offset used in address calculation, split into two parts in the instruction encoding).
+* imm: Immediate value (offset used in address calculation, split into two parts in the instruction encoding).
 
 Example: RISC-V assembly instruction for storing a word
 
@@ -240,13 +240,13 @@ opcode rs1 rs2 imm
 
 **📍Fields:**
 
-opcode: Operation code (specifies the branch operation).
+* opcode: Operation code (specifies the branch operation).
 
-rs1: Source register 1 (one of the registers to be compared).
+* rs1: Source register 1 (one of the registers to be compared).
 
-rs2: Source register 2 (the other register to be compared).
+* rs2: Source register 2 (the other register to be compared).
 
-imm: Immediate value (branch offset, split into several parts in the instruction encoding).
+* imm: Immediate value (branch offset, split into several parts in the instruction encoding).
 
 Example: RISC-V assembly instruction for a branch if equal:
 
@@ -260,11 +260,11 @@ opcode rd imm
 
 **📍Fields:**
 
-opcode: Operation code (specifies the operation to be performed).
+* opcode: Operation code (specifies the operation to be performed).
 
-rd: Destination register (where the result is stored).
+* rd: Destination register (where the result is stored).
 
-imm: Immediate value (a 20-bit immediate value).
+* imm: Immediate value (a 20-bit immediate value).
 
 Example: Common U-type instructions in RISC-V are LUI (Load Upper Immediate) and AUIPC (Add Upper Immediate to PC).
 
@@ -282,11 +282,11 @@ opcode rd imm
 
 **📍Fields:**
 
-opcode: Operation code (specifies the operation to be performed).
+* opcode: Operation code (specifies the operation to be performed).
 
-rd: Destination register (where the return address is stored, if applicable).
+* rd: Destination register (where the return address is stored, if applicable).
 
-imm: Immediate value (a 20-bit signed offset for the jump target address).
+* imm: Immediate value (a 20-bit signed offset for the jump target address).
 
 Example: Common J-type instructions in RISC-V are JAL (Jump and Link) and JALR (Jump and Link Register).
 
