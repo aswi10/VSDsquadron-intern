@@ -115,8 +115,6 @@ Key Features of Spike🪄:
 
 Using the spike library we can verify the risc-v
 
-![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/abf8a4c5-6782-4214-b522-1ca48e4a4f9c)
-
 Step 1:
 Open the terminal and launch the task 1 file
 (i.e)sum1ton.c
@@ -137,6 +135,156 @@ Step 4:
 Do the calculations of the assembly code and verify the difference using calculator
 
 ![Screenshot (139)](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/64837b09-f4b8-4c2a-8072-9a2332244c19)
+
+Task-4👩‍💻
+
+"Identify various RISC-V instruction type (R, I, S, B, U, J) and exact 32-bit instruction code in the instruction type format for below RISC-V instructions
+
+ADD r1, r2, r3
+
+SUB r3, r1, r2
+
+AND r2, r1, r3
+
+OR r8, r2, r5
+
+XOR r8, r1, r4
+
+SLT r10, r2, r4
+
+ADDI r12, r3, 5
+
+SW r3, r1, 4
+
+SRL r16, r11, r2
+
+BNE r0, r1, 20
+
+BEQ r0, r0, 15
+
+LW r13, r11, 2
+
+SLL r15, r11, r2
+
+Upload the 32-bit pattern on Github"
+
+1.R-Type instruction: R-type (Register-type) instruction. R-type instructions are used for arithmetic and logical operations that require all operands to be located in registers.
+
+The general format of an R-type instruction is:
+
+opcode rs rt rd shamt funct
+
+📍Fields:
+
+opcode: Operation code (always 000000 for R-type instructions in MIPS).
+rs: Source register (the first operand).
+rt: Source register (the second operand).
+rd: Destination register (where the result is stored).
+shamt: Shift amount (used for shift operations, otherwise 0).
+funct: Function code (specifies the exact operation to be performed).
+
+Example: MIPS assembly instruction for addition
+
+add $t1, $t2, $t3
+
+2.I-Type instruction: I-type (Immediate-type) instruction. I-type instructions are used for operations that involve an immediate value (a constant), memory access operations, and branch instructions.
+
+The general format of an I-type instruction is:
+
+opcode rs rt immediate
+
+📍Fields:
+
+opcode: Operation code (specifies the operation to be performed).
+rs: Source register (one operand).
+rt: Target register (where the result is stored, or another operand).
+immediate: Immediate value (a constant value or address offset).
+
+Example: MIPS assembly instruction for adding an immediate value
+
+addi $t1, $t2, 10
+
+3.S-Type instruction: S-type (Store-type) instruction. These instructions are used for storing data from a register into memory. 
+
+The general format of an S-type instruction in RISC-V is:
+
+opcode rs2 rs1 imm
+
+📍Fields:
+
+opcode: Operation code (specifies the operation to be performed, such as 'sw' for store word).
+rs2: Source register 2 (contains the data to be stored).
+rs1: Source register 1 (base register for calculating the memory address).
+imm: Immediate value (offset used in address calculation, split into two parts in the instruction encoding).
+
+Example: RISC-V assembly instruction for storing a word
+
+sw x2, 12(x1)
+
+4.B-Type instruction: B-type (Branch-type) instruction. These instructions control the flow of execution by conditionally branching to another part of the program based on the comparison of register values.
+
+The general format of a B-type instruction in RISC-V is:
+
+opcode rs1 rs2 imm
+
+📍Fields:
+
+opcode: Operation code (specifies the branch operation).
+rs1: Source register 1 (one of the registers to be compared).
+rs2: Source register 2 (the other register to be compared).
+imm: Immediate value (branch offset, split into several parts in the instruction encoding).
+
+Example: RISC-V assembly instruction for a branch if equal:
+
+beq x1, x2, label
+
+5.U-Type instruction: U-type (Upper Immediate-type) instruction. These instructions involve large immediate values, often used for addressing or for creating large constants. The U-type format is used for instructions that load a 20-bit immediate value into a register.
+
+The general format of a U-type instruction in RISC-V is:
+
+opcode rd imm
+
+📍Fields:
+
+opcode: Operation code (specifies the operation to be performed).
+rd: Destination register (where the result is stored).
+imm: Immediate value (a 20-bit immediate value).
+
+Example: Common U-type instructions in RISC-V are LUI (Load Upper Immediate) and AUIPC (Add Upper Immediate to PC).
+
+LUI (Load Upper Immediate)
+
+The LUI instruction loads a 20-bit immediate value into the upper 20 bits of the destination register, with the lower 12 bits set to zero.
+
+lui x1, 0x12345
+
+6.J-Type instruction: J-type (Jump-type) instruction. These instructions are designed for jump operations, where the program counter (PC) is set to a new address, allowing for function calls and unconditional jumps.
+
+The general format of a J-type instruction in RISC-V is:
+
+opcode rd imm
+
+📍Fields:
+
+opcode: Operation code (specifies the operation to be performed).
+rd: Destination register (where the return address is stored, if applicable).
+imm: Immediate value (a 20-bit signed offset for the jump target address).
+
+Example: Common J-type instructions in RISC-V are JAL (Jump and Link) and JALR (Jump and Link Register).
+
+JAL (Jump and Link)
+
+The JAL instruction jumps to the address specified by the immediate value and saves the return address (PC + 4) in the destination register.
+
+jal x1, 0x12345
+
+
+
+
+
+
+
+
 
 
 
