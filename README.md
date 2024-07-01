@@ -25,7 +25,7 @@ The term riscv64 refers to the 64-bit implementation of the RISC-V architecture.
 
 🔖64-bit Addressing: With 64-bit addressing, riscv64 can address a much larger memory space, which is crucial for applications requiring large amounts of memory.
 
-**TASK-1👩‍💻**
+#**TASK-1👩‍💻**
 
 Before the task let's know about what is leafpad🤔
 
@@ -65,7 +65,7 @@ Get the assembly code and calculate the data of the instruction set,Calculate us
 
 ![Calculation](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/283632ec-cca9-4bbf-bf69-491e494cce96)
 
-**TASK-2👩‍💻**
+##**TASK-2👩‍💻**
 
 🔖clock dividers provide an output clock signal that is a divided frequency of the input.
 
