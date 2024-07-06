@@ -533,6 +533,10 @@ _**iverilog -o rv32i_simulation iiitb_rv32i.v iiitb_rv32i_tb.v**_
 
 _**gtkwave iiitb_rv32i.vcd**_
 
+**GTKWAVE WINDOW**
+
+
+
 
 
 
