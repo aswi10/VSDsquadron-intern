@@ -136,7 +136,7 @@ Do the calculations of the assembly code and verify the difference using calcula
 
 ![Screenshot (139)](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/64837b09-f4b8-4c2a-8072-9a2332244c19)
 
-# **Task-4👩‍💻**
+# **TASK-4👩‍💻**
 
 "Identify various RISC-V instruction type (R, I, S, B, U, J) and exact 32-bit instruction code in the instruction type format for below RISC-V instructions
 
@@ -503,6 +503,24 @@ shamt: Value in r2, interpreted as a 5-bit binary representation
 Binary number:000000 01011 00000 01111 00011 000000
 
 32 bit pattern:0x00B0001C
+
+# **TASK-5**
+Here with the help of RISC-V!!
+
+We are going to observe the functional simulation and the output waveforms using the verilog netlist and testbench
+
+For the verilog netlist and the testbench we can refer the reference repo 
+
+Lets clone the reference repository with the command
+
+**git clone https://github.com/vinayrayapati/rv32i.git aswi_project**
+
+The reference repo is cloned to my project 
+
+**cd aswi_project**
+
+
+
 
 
 
