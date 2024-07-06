@@ -537,6 +537,8 @@ _**gtkwave iiitb_rv32i.vcd**_
 
 ![gtk](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/bfe6d15c-cb23-4149-b078-4e79779c41c6)
 
+## Analysing the output waveforms of the instructions
+
 
 
 
