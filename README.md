@@ -563,6 +563,15 @@ _**gtkwave iiitb_rv32i.vcd**_
 
 ![sll](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/3f8e6f97-edcd-4fb3-b698-61b73b8d4832)
 
+*INSTRUCTION 7: ADDI r12,r3,5
+
+![ADDI](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/3428ed51-d6c9-4fcb-89cb-b108406c1ebd)
+
+*INSTRUCTION 8: BEQ r0,r0,r15
+
+![BEQ](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/86fbc2f7-c481-440a-944c-38548de18c4c)
+
+
 
 
 
