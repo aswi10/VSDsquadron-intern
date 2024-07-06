@@ -571,6 +571,10 @@ _**gtkwave iiitb_rv32i.vcd**_
 
 ![BEQ](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/86fbc2f7-c481-440a-944c-38548de18c4c)
 
+*INSTRUCTION 9: BNE r0,r1,20
+
+![Bne](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/6296ab00-ec08-4056-8ceb-dedc5faff74a)
+
 
 
 
