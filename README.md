@@ -523,6 +523,21 @@ The reference repo is cloned to my project
 
 **VERILOG TEST BENCH**
 
+![tb](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/1b810503-bbd4-40e0-adaa-8d614e95a5c3)
+
+To run and simulate the verilog code use the command
+
+_**iverilog -o rv32i_simulation iiitb_rv32i.v iiitb_rv32i_tb.v**_
+
+To see the waveform in the gtkwave use the command
+
+_**gtkwave iiitb_rv32i.vcd**_
+
+
+
+
+
+
 
 
 
