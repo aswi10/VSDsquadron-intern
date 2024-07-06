@@ -504,18 +504,18 @@ Binary number:000000 01011 00000 01111 00011 000000
 
 32 bit pattern:0x00B0001C
 
-# **TASK-5**
+# **TASK-5👩‍💻**
 Here with the help of RISC-V!!
 
-We are going to observe the functional simulation and the output waveforms using the verilog netlist and testbench
+* We are going to observe the functional simulation and the output waveforms using the verilog netlist and testbench
 
-For the verilog netlist and the testbench we can refer the reference repo 
+* For the verilog netlist and the testbench we can refer the reference repo 
 
-Lets clone the reference repository with the command
+* Lets clone the reference repository with the command
 
 **git clone https://github.com/vinayrayapati/rv32i.git aswi_project**
 
-The reference repo is cloned to my project 
+* The reference repo is cloned to my project 
 
 **cd aswi_project**
 
@@ -525,11 +525,11 @@ The reference repo is cloned to my project
 
 ![tb](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/1b810503-bbd4-40e0-adaa-8d614e95a5c3)
 
-To run and simulate the verilog code use the command
+* To run and simulate the verilog code use the command
 
 _**iverilog -o rv32i_simulation iiitb_rv32i.v iiitb_rv32i_tb.v**_
 
-To see the waveform in the gtkwave use the command
+* To see the waveform in the gtkwave use the command
 
 _**gtkwave iiitb_rv32i.vcd**_
 
