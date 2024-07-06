@@ -541,7 +541,7 @@ _**gtkwave iiitb_rv32i.vcd**_
 
 * INSTRUCTION 1: ADD r1,r2,r3
 
-![Add](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/80cb0f90-ef4e-4799-96bc-2750e7a32dc7)
+![0qy4vs6f](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/1934adc2-73dc-478c-8638-4a9743835230)
 
 
 
