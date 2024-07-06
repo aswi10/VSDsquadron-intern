@@ -519,6 +519,11 @@ The reference repo is cloned to my project
 
 **cd aswi_project**
 
+![aswi](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/2009ce4e-468f-44c2-9950-06d3a8109586)
+
+**VERILOG TEST BENCH**
+
+
 
 
 
