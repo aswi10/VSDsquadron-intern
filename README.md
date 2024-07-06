@@ -535,6 +535,9 @@ _**gtkwave iiitb_rv32i.vcd**_
 
 **GTKWAVE WINDOW**
 
+![gtk](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/bfe6d15c-cb23-4149-b078-4e79779c41c6)
+
+
 
 
 
