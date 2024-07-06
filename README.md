@@ -539,6 +539,10 @@ _**gtkwave iiitb_rv32i.vcd**_
 
 ## Analysing the output waveforms of the instructions
 
+* INSTRUCTION 1: ADD r1,r2,r3
+
+
+
 
 
 
