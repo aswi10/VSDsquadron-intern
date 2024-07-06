@@ -547,6 +547,9 @@ _**gtkwave iiitb_rv32i.vcd**_
 
 ![and](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/7f0db345-c02b-43b2-a689-71bc80f6a189)
 
+![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/e4173918-aac1-40eb-928e-169974f0e09b)
+
+
 *INSTRUCTION 3: AND r2,r1,r3
 
 ![and](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/7f0db345-c02b-43b2-a689-71bc80f6a189)
