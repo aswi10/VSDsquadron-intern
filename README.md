@@ -541,7 +541,20 @@ _**gtkwave iiitb_rv32i.vcd**_
 
 * INSTRUCTION 1: ADD r1,r2,r3
 
-![0qy4vs6f](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/1934adc2-73dc-478c-8638-4a9743835230)
+![add](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/33ed6687-a7dc-4a89-b6ab-78f100b98fb9)
+
+* INSTRUCTION 2: SUB r3,r1,r2
+
+![and](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/7f0db345-c02b-43b2-a689-71bc80f6a189)
+
+*INSTRUCTION 3: AND r2,r1,r3
+
+![and](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/7f0db345-c02b-43b2-a689-71bc80f6a189)
+
+*INSTRUCTION 4: OR r8,r2,r5
+
+![Or](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/9621da02-3123-4c8a-96e5-fe792bb4fef2)
+
 
 
 
