@@ -540,8 +540,8 @@ _**gtkwave iiitb_rv32i.vcd**_
 ## Analysing the output waveforms of the instructions
 
 * INSTRUCTION 1: ADD r1,r2,r3
-
-![add](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/33ed6687-a7dc-4a89-b6ab-78f100b98fb9)
+  
+![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/570c66ff-c1e2-4f1f-8cf3-62bf76354da5)
 
 * INSTRUCTION 2: SUB r3,r1,r2
 
