@@ -634,6 +634,60 @@ A clock cycle divider is a digital circuit used to reduce the frequency of a clo
 #include <stdint.h>
 
 #define INPUT_CLOCK_FREQUENCY 100000000 // 100 MHz
+
+#define OUTPUT_CLOCK_FREQUENCY 10000000 // 10 MHz
+
+#define DIV_FACTOR (INPUT_CLOCK_FREQUENCY / OUTPUT_CLOCK_FREQUENCY)
+
+volatile uint32_t counter = 0;
+
+volatile uint8_t clk_div = 0;
+
+void clock_divider() {
+
+    while (1) {
+    
+        if (++counter >= (DIV_FACTOR / 2)) {
+        
+            clk_div ^= 1; // Toggle output clock
+            
+            counter = 0;
+            
+            // Set output clock pin
+            
+            if (clk_div) {
+            
+                // Set GPIO_1 high
+                
+            } else {
+            
+                // Set GPIO_1 low
+                
+            }
+            
+        }
+        
+    }
+    
+}
+
+int main() {
+
+    // Initialize GPIO pins
+    
+    // Set GPIO_0 as input (clock source)
+    
+    // Set GPIO_1 as output (divided clock)
+    
+    clock_divider();
+    
+    return 0;
+    
+}
+
+#include <stdint.h>
+
+#define INPUT_CLOCK_FREQUENCY 100000000 // 100 MHz
 #define OUTPUT_CLOCK_FREQUENCY 10000000 // 10 MHz
 #define DIV_FACTOR (INPUT_CLOCK_FREQUENCY / OUTPUT_CLOCK_FREQUENCY)
 
