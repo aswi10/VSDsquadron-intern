@@ -569,7 +569,7 @@ _**gtkwave iiitb_rv32i.vcd**_
 
 *INSTRUCTION 8: BEQ r0,r0,r15
 
-![BEQ](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/86fbc2f7-c481-440a-944c-38548de18c4c)
+![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/58430f16-0403-46bd-84aa-88c614cf02bb)
 
 *INSTRUCTION 9: BNE r0,r1,20
 
