@@ -549,7 +549,7 @@ _**gtkwave iiitb_rv32i.vcd**_
 
 *INSTRUCTION 3: AND r2,r1,r3
 
-![and](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/7f0db345-c02b-43b2-a689-71bc80f6a189)
+![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/fd15449e-fb12-48bb-89da-e6fb926aa687)
 
 *INSTRUCTION 4: OR r8,r2,r5
 
