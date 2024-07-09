@@ -573,7 +573,7 @@ _**gtkwave iiitb_rv32i.vcd**_
 
 *INSTRUCTION 9: BNE r0,r1,20
 
-![Bne](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/6296ab00-ec08-4056-8ceb-dedc5faff74a)
+![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/7e8cff2a-15c2-469b-b497-c34a9f5d7108)
 
 
 
