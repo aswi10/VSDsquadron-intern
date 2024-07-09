@@ -579,6 +579,10 @@ _**gtkwave iiitb_rv32i.vcd**_
 
 ## CLOCK CYCLE DIVIDER : CRAFTING A DIGITAL CLOCK DIVIDER CIRCUIT
 
+**Overview of Clock Cycle Divider Using RISC-V Processor**
+
+A clock cycle divider is a digital circuit used to reduce the frequency of a clock signal by producing an output clock signal that is an integer division of the input frequency. It is essential in various digital systems to ensure different components operate at appropriate frequencies. Crafting a digital clock divider using a RISC-V processor involves leveraging the processor’s capabilities to handle clock signal manipulation through programming.
+
 
 
 
