@@ -553,7 +553,7 @@ _**gtkwave iiitb_rv32i.vcd**_
 
 *INSTRUCTION 4: OR r8,r2,r5
 
-![Or](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/9621da02-3123-4c8a-96e5-fe792bb4fef2)
+![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/33748904-9b66-4440-a246-3e6892997302)
 
 *INSTRUCTION 5: XOR r8,r1,r4
 
