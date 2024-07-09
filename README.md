@@ -587,23 +587,23 @@ A clock cycle divider is a digital circuit used to reduce the frequency of a clo
 
 **HARDWARE COMPONENTS:**
 
-_Clock source_
+* _Clock source_
 
-_Resistors_
+* _Resistors_
 
-_Capacitors_
+* _Capacitors_
 
-_Microcontroller_
+* _Microcontroller_
 
-_Power supply_
+* _Power supply_
 
-_Connecting wires_
+* _Connecting wires_
 
 **SOFTWARE COMPONENTS:**
 
-_Simulation tools_
+* _Simulation tools_
  
-_Programming tools_
+* _Programming tools_
 
 
 
