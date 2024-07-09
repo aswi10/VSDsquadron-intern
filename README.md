@@ -575,6 +575,10 @@ _**gtkwave iiitb_rv32i.vcd**_
 
 ![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/7e8cff2a-15c2-469b-b497-c34a9f5d7108)
 
+# TASK-5👩‍💻
+
+## CLOCK CYCLE DIVIDER:CRAFTING A DIGITAL CLOCK DIVIDER CIRCUIT
+
 
 
 
