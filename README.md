@@ -561,7 +561,7 @@ _**gtkwave iiitb_rv32i.vcd**_
 
 *INSTRUCTION 6: SLT r10,r2,r4
 
-![sll](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/3f8e6f97-edcd-4fb3-b698-61b73b8d4832)
+![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/1d477acd-fbbf-4cca-8516-e92f771138f3)
 
 *INSTRUCTION 7: ADDI r12,r3,5
 
