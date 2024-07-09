@@ -587,14 +587,12 @@ A clock cycle divider is a digital circuit used to reduce the frequency of a clo
 
 **HARDWARE COMPONENTS:**
 
+* _RISC-V board_
+
 * _Clock source_
 
-* _Resistors_
-
-* _Capacitors_
-
-* _Microcontroller_
-
+* _GPIO_
+   
 * _Power supply_
 
 * _Connecting wires_
@@ -604,6 +602,33 @@ A clock cycle divider is a digital circuit used to reduce the frequency of a clo
 * _Simulation tools_
  
 * _Programming tools_
+
+### * **Circuit connection**
+
+* Input Clock Signal:
+
+Pin: Input Clock Pin (GPIO)
+
+Connection: Connect the clock source to the input clock pin of the RISC-V processor.
+
+* Output Clock Signal:
+
+Pin: Output Clock Pin (GPIO)
+
+Connection: Connect the output clock pin to the external circuit or device that requires the divided clock signal.
+
+*Power Supply:
+
+Pin: Vcc and GND
+
+Connection: Provide power to the RISC-V processor through the Vcc (positive voltage) and GND (ground) pins.
+
+### * **Pin Mapping**
+
+![Screenshot (143)](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/d4fbc56a-c025-4b10-b63b-78114d2cfdbd)
+
+
+
 
 
 
