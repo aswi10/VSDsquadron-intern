@@ -557,7 +557,7 @@ _**gtkwave iiitb_rv32i.vcd**_
 
 *INSTRUCTION 5: XOR r8,r1,r4
 
-![xor](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/6f7f0a70-41b8-4d33-9d2f-53c1e01cafe9)
+![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/6936fe97-5301-486c-b14d-b53f6a3dd502)
 
 *INSTRUCTION 6: SLT r10,r2,r4
 
