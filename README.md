@@ -547,31 +547,31 @@ _**gtkwave iiitb_rv32i.vcd**_
 
 ![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/e4173918-aac1-40eb-928e-169974f0e09b)
 
-*INSTRUCTION 3: AND r2,r1,r3
+* INSTRUCTION 3: AND r2,r1,r3
 
 ![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/fd15449e-fb12-48bb-89da-e6fb926aa687)
 
-*INSTRUCTION 4: OR r8,r2,r5
+* INSTRUCTION 4: OR r8,r2,r5
 
 ![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/33748904-9b66-4440-a246-3e6892997302)
 
-*INSTRUCTION 5: XOR r8,r1,r4
+* INSTRUCTION 5: XOR r8,r1,r4
 
 ![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/6936fe97-5301-486c-b14d-b53f6a3dd502)
 
-*INSTRUCTION 6: SLT r10,r2,r4
+* INSTRUCTION 6: SLT r10,r2,r4
 
 ![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/1d477acd-fbbf-4cca-8516-e92f771138f3)
 
-*INSTRUCTION 7: ADDI r12,r3,5
+* INSTRUCTION 7: ADDI r12,r3,5
 
 ![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/f05c35ce-79f2-4359-9429-0f10ed58c6f1)
 
-*INSTRUCTION 8: BEQ r0,r0,r15
+* INSTRUCTION 8: BEQ r0,r0,r15
 
 ![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/58430f16-0403-46bd-84aa-88c614cf02bb)
 
-*INSTRUCTION 9: BNE r0,r1,20
+* INSTRUCTION 9: BNE r0,r1,20
 
 ![image](https://github.com/aswi10/VSDsquadron-intern/assets/173608392/7e8cff2a-15c2-469b-b497-c34a9f5d7108)
 
@@ -579,24 +579,30 @@ _**gtkwave iiitb_rv32i.vcd**_
 
 ## CLOCK CYCLE DIVIDER : CRAFTING A DIGITAL CLOCK DIVIDER CIRCUIT
 
-### * **Overview of clock cycle divider using RISC-V processor**
+### *  **Overview of clock cycle divider using RISC-V processor**
 
 A clock cycle divider is a digital circuit used to reduce the frequency of a clock signal by producing an output clock signal that is an integer division of the input frequency. It is essential in various digital systems to ensure different components operate at appropriate frequencies. Crafting a digital clock divider using a RISC-V processor involves leveraging the processor’s capabilities to handle clock signal manipulation through programming. Design the clock divider circuit using a counter-based method or a toggle flip-flop method, depending on the division factor. Implement the design on VSDsquadron mini by writing HDL code, compiling, and simulating it to verify functionality. Ensure the output clock signal has the correct frequency by running simulations and checking for timing issues or glitches.
 
-### * **Components used to build a digital clock cycle divider**
+### *  **Components used to build a digital clock cycle divider**
 
 **HARDWARE COMPONENTS:**
 
 _Clock source_
+
 _Resistors_
+
 _Capacitors_
+
 _Microcontroller_
+
 _Power supply_
+
 _Connecting wires_
 
 **SOFTWARE COMPONENTS:**
 
 _Simulation tools_
+ 
 _Programming tools_
 
 
